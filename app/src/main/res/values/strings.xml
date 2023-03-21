@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CONVERSOR DIVISAS</string>
+    <string name="importe">Importe</string>
+    <string name="convertir">Convertir</string>
+    <string name="de">Convertir de</string>
+    <string name="a">a</string>
+    <string name="resultado">Resultado:</string>
+</resources>

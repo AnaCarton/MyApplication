@@ -1,0 +1,25 @@
+
+<!-- Nuevo layout formado por una imagen y un texto que se vinculará
+al
+ spinner para que muestre cada uno de sus valores con este
+formato -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_bandera_rla"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:padding="3dp"
+        />
+    <TextView
+        android:id="@+id/tv_divisa_rla"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="3"
+        android:gravity="left|center"
+        android:text="USD - Dólar estadounidense"
+        android:textSize="16sp" />
+</LinearLayout>
